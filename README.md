@@ -9,16 +9,3 @@ A POC to review the concept about Spring Cloud Contract
 | 4  | spring-cloud-contract-git-visualization-poc | [![Build Status](https://travis-ci.org/jabrena/spring-cloud-contract-git-visualization-poc.svg?branch=master)](https://travis-ci.org/jabrena/spring-cloud-contract-git-visualization-poc) | A way to visualize SCC contracts                                | https://github.com/jabrena/spring-cloud-contract-git-visualization-poc |
 | 5  | event-storming-spring-cloud-contract        | NA                                                                                                                                                                                        | The outcome from Event Storming about Contract Testing with SCC | https://github.com/jabrena/event-storming-spring-cloud-contract        |
 | 6  | spring-cloud-contract-git-stubs-poc         |                                                                                                                                                                                           | An example to run Stubs in localhost                            | https://github.com/jabrena/spring-cloud-contract-git-stubs-poc         |
----
----
-
-## Old documentation
-
-
-```bash
-mvnw clean install
-```
-
-```bash
-mvn -rf consumer spring-boot:run -Dspring.profiles.active=stub
-```
